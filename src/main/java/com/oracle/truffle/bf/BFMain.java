@@ -16,15 +16,13 @@ public class BFMain {
     
     
     public static void main(String[] args) throws IOException {
-        BFImpl[] impls = new BFImpl[]{new BFV0(), new BFV1(), new BFV2()};
+        BFImpl[] impls = new BFImpl[]{};
         String arg = args[0];
         if (arg.equals("-benchmark")) {
             BFBenchmark.benchmark(impls);
             return;
         }
        
-       
-        
         int impl = 0;
         if (args.length > 1) {
             impl = Integer.parseInt(args[1]);
