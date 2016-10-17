@@ -32,7 +32,7 @@ For more information see the [reference](https://esolangs.org/wiki/brainfuck) on
 
 ## Installation
 
-* Clone SL repository using
+* Clone BF repository using
   `git clone https://github.com/chumer/bf`
 * Download Graal VM Development Kit from 
   http://www.oracle.com/technetwork/oracle-labs/program-languages/downloads
@@ -42,16 +42,16 @@ For more information see the [reference](https://esolangs.org/wiki/brainfuck) on
 
 ## IDE Setup 
 
+### Netbeans
+* Tested with Netbeans 8.2
+* Open Netbeans
+* File -> Open Project -> Select `simplelanguage` folder -> Open Project
+
 ### Eclipse
 * Tested with Eclipse Mars SR2
 * Open Eclipse with a new workspace
 * Install `m2e` and `m2e-apt` plugins from the Eclipse marketplace (Help -> Eclipse Marketplace...)
 * File -> Import... -> Existing Maven Projects -> Select `simplelanguage` folder -> Finish
-
-### Netbeans
-* Tested with Netbeans 8.1
-* Open Netbeans
-* File -> Open Project -> Select `simplelanguage` folder -> Open Project
 
 ### IntelliJ IDEA
 * Tested with IntelliJ 2016.1.3 Community Edition
@@ -60,8 +60,7 @@ For more information see the [reference](https://esolangs.org/wiki/brainfuck) on
 
 ## Running
 
-* Execute `./bf tests/HelloWorld.bf` to run a simple language source file.
-* Execute `./bf -disassemble tests/SumPrint.bf` to see assembly code for Truffle compiled functions.
+* Execute `./bf hello.bf` to run a simple language source file.
 
 ## IGV
 
@@ -81,7 +80,7 @@ For more information see the [reference](https://esolangs.org/wiki/brainfuck) on
 Truffle BF is compatible to:
 
 * Truffle-Version: 0.18
-* GraalVM-Version: 0.15
+* GraalVM-Version: 0.17
 
 
 ## Further information
