@@ -16,7 +16,7 @@ public class BFMain {
     
     
     public static void main(String[] args) throws IOException {
-        BFImpl[] impls = new BFImpl[]{};
+        BFImpl[] impls = new BFImpl[]{new BFV0()};
         String arg = args[0];
         if (arg.equals("-benchmark")) {
             BFBenchmark.benchmark(impls);
