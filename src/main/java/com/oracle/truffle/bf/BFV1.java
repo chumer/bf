@@ -51,7 +51,7 @@ public class BFV1 extends BFImpl {
         this.out = out;
         OperationNode[] nodes = prepareNodes(operations);
         BFRootNode root = new BFRootNode(nodes);
-        target = Truffle.getRuntime().createCallTarget(root);
+        this.target = Truffle.getRuntime().createCallTarget(root);
     }
     
     @Override
@@ -159,8 +159,5 @@ public class BFV1 extends BFImpl {
                 children1.execute(memory);
             }
         }
-
     }
-
-
 }
