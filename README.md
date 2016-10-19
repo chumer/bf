@@ -45,13 +45,13 @@ For more information see the [reference](https://esolangs.org/wiki/brainfuck) on
 ### Netbeans
 * Tested with Netbeans 8.2
 * Open Netbeans
-* File -> Open Project -> Select `simplelanguage` folder -> Open Project
+* File -> Open Project -> Select `bf` folder -> Open Project
 
 ### Eclipse
 * Tested with Eclipse Mars SR2
 * Open Eclipse with a new workspace
 * Install `m2e` and `m2e-apt` plugins from the Eclipse marketplace (Help -> Eclipse Marketplace...)
-* File -> Import... -> Existing Maven Projects -> Select `simplelanguage` folder -> Finish
+* File -> Import... -> Existing Maven Projects -> Select `bf` folder -> Finish
 
 ### IntelliJ IDEA
 * Tested with IntelliJ 2016.1.3 Community Edition
